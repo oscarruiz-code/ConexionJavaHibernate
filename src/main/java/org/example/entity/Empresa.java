@@ -4,6 +4,12 @@ import jakarta.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Representa una empresa en el sistema.
+ * Incluye detalles sobre la empresa, como su nombre, industria y departamentos asociados.
+ *
+ * @autor oscarruiz-code
+ */
 @Entity
 @Table(name = "empresa")
 public class Empresa {

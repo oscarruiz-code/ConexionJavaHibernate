@@ -2,6 +2,12 @@ package org.example.entity;
 
 import jakarta.persistence.*;
 
+/**
+ * Representa un empleado en un departamento.
+ * Incluye detalles sobre el empleado, como su nombre, apellido y puesto.
+ *
+ * @autor oscarruiz-code
+ */
 @Entity
 @Table(name = "empleado")
 public class Empleado {

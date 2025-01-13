@@ -4,6 +4,12 @@ import jakarta.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Representa un departamento en una empresa.
+ * Incluye detalles sobre el departamento, como su nombre y empleados asociados.
+ *
+ * @autor oscarruiz-code
+ */
 @Entity
 @Table(name = "departamento")
 public class Departamento {

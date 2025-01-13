@@ -7,6 +7,12 @@ import org.example.repositorio.DepartamentoRepository;
 import org.example.repositorio.EmpleadoRepository;
 import org.example.repositorio.EmpresaRepository;
 
+/**
+ * Clase principal para ejecutar la aplicación.
+ * Realiza operaciones CRUD utilizando los repositorios de Empresa, Departamento y Empleado.
+ *
+ * @autor oscarruiz-code
+ */
 public class Main {
     public static void main(String[] args) {
 

@@ -7,6 +7,12 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
+/**
+ * Repositorio para gestionar la entidad Empleado.
+ * Proporciona métodos para realizar operaciones CRUD en los empleados.
+ *
+ * @autor oscarruiz-code
+ */
 public class EmpleadoRepository {
 
     private SessionFactory factory;
