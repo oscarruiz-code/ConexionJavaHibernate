@@ -40,7 +40,6 @@ public class Empresa {
         departamento.setEmpresa(this);
     }
 
-    // Métodos getter y setter
     public int getId() {
         return id;
     }

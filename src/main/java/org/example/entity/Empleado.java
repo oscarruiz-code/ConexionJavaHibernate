@@ -39,7 +39,6 @@ public class Empleado {
         this.departamento = departamento;
     }
 
-    // Métodos getter y setter
     public int getId() {
         return id;
     }
